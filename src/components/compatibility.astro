@@ -1,0 +1,89 @@
+---
+import CompatibilityList from "~/components/compatibility-list.astro";
+import ContentSection from "~/components/content-section.astro";
+import type { CompatibilityItem } from "~/types";
+
+const frameworks: Array<CompatibilityItem> = [
+  {
+    title: "React",
+    icon: "frameworks/react",
+    url: "https://reactjs.org/",
+  },
+  {
+    title: "NextJS",
+    icon: "frameworks/preact",
+    url: "https://nextjs.org/",
+  },
+  {
+    title: "JavaScript",
+    icon: "frameworks/svelte",
+    url: "https://www.javascript.com/",
+  },
+  {
+    title: "Node JS",
+    icon: "frameworks/vue",
+    url: "https://nodejs.org/en",
+  },
+  {
+    title: "MongoDB",
+    icon: "frameworks/solid",
+    url: "https://www.mongodb.com/",
+  },
+  {
+    title: "Express JS",
+    icon: "frameworks/lit",
+    url: "https://expressjs.com/",
+  },
+];
+
+// const platforms: Array<CompatibilityItem> = [
+//   {
+//     title: "Netlify",
+//     icon: "platforms/netlify",
+//     url: "https://www.netlify.com/",
+//   },
+//   {
+//     title: "Vercel",
+//     icon: "platforms/vercel",
+//     url: "https://vercel.com/",
+//   },
+//   {
+//     title: "Cloudflare",
+//     icon: "fa-brands:cloudflare",
+//     url: "https://pages.cloudflare.com/",
+//   },
+//   {
+//     title: "Render",
+//     icon: "platforms/render",
+//     url: "https://render.com/",
+//   },
+//   {
+//     title: "GitHub",
+//     icon: "fa-brands:github",
+//     url: "https://pages.github.com/",
+//   },
+//   {
+//     title: "GitLab",
+//     icon: "fa-brands:gitlab",
+//     url: "https://docs.gitlab.com/ee/user/project/pages/",
+//   },
+// ];
+---
+
+<ContentSection title="Hey Everyone👋🏼" id="compatibility">
+  <Fragment slot="lead">
+    <span class="text-primary">Documenting</span> my Journey & Learnings with{" "}
+    <span class="text-primary">you people</span>.
+    
+  </Fragment>
+  <CompatibilityList
+    items={frameworks}
+    title="Frameworks"
+    url=""
+  />
+  <!-- <CompatibilityList
+    items={platforms}
+    title="Platforms"
+    url=""
+  /> -->
+</ContentSection>

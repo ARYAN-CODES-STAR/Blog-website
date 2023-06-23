@@ -1,0 +1,32 @@
+[
+  {
+    "title": "The Ultimate HTML Crash Course",
+    "image": "./images/htmlcc.jpeg",
+    "url": "https://aryansharma.hashnode.dev/the-ultimate-html-crash-course"
+  },
+  {
+    "title": "use Strict In JavaScript",
+    "image": "./images/use_strict.jpeg",
+    "url": "https://aryansharma.hashnode.dev/everything-you-need-to-know-about-use-strict-in-javascript"
+  },
+  {
+    "title": "CSS Crash Course-1",
+    "image": "./images/cssc-1.jpeg",
+    "url": "https://aryansharma.hashnode.dev/css-101-learn-the-fundamentals-in-a-crash-course-1"
+  },
+  {
+    "title": "CSS Crash Course-2",
+    "image": "./images/csscc-2.jpeg",
+    "url": "https://aryansharma.hashnode.dev/css-101-learn-the-fundamentals-in-a-crash-course-2"
+  },
+  {
+    "title": "Hello World - JavaScript",
+    "image": "./images/js-1.jpeg",
+    "url": "https://aryansharma.hashnode.dev/learn-javascript-from-scratch-the-ultimate-guide-hello-world"
+  },
+  {
+    "title": "Build Chrome Extension",
+    "image": "./images/bce.jpeg",
+    "url": "https://aryansharma.hashnode.dev/how-to-build-your-own-google-chrome-extension"
+  }
+]
